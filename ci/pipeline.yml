@@ -25,5 +25,5 @@ jobs:
       file: repo/ci/tasks/build.yml
     - put: deploy-cf
       params:
-        manifest: manifest.yml
+        manifest: /manifest.yml
       
