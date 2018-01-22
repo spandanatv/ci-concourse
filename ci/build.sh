@@ -1,3 +1,3 @@
 #!/bin/bash
 cd repo
-./gradlew clean assemble
+./gradlew clean build
