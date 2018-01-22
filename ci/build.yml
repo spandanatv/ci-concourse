@@ -13,10 +13,3 @@ run:
   path: /bin/bash
   args:
     - repo/ci/tasks/build.sh
-
-caches:
-  - path: .gradle/
-  - path: .m2/
-
-params:
-  PROJECT_TYPE: 
