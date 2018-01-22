@@ -1,0 +1,5 @@
+applications:
+- name: ci-concourse-caching-sample-master
+  random-route: true
+  path: build/libs/ci-concourse-caching-sample-master-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
