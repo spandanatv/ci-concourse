@@ -22,7 +22,7 @@ jobs:
     - get: repo
       trigger: true
     - task: Build Code
-      file: repo/ci/build.yml
+      file: repo/build.yml
     - put: deploy-cf
       params:
         manifest: repo/manifest.yml
