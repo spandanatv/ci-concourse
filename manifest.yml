@@ -1,5 +1,5 @@
 applications:
 - name: ci-concourse
   random-route: true
-  path: /build/libs/ci-concourse-0.0.1-SNAPSHOT.jar
+  path: build/libs/ci-concourse-0.0.1-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
